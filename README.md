@@ -26,6 +26,22 @@ We believe in role-based evolution:
 
 See: [`community/roles.md`](./community/roles.md)
 
+## 🚀 Usage Info: Examples
+
+To tag a new release and update logs:
+
+```bash
+git add .
+./tag-release.sh --help
+./tag-release.sh --version 1.2.0
+````
+
+Or let the script auto-increment:
+
+```bash
+./tag-release.sh --minor
+```
+
 ## 🛤 Roadmap
 
 Open the full [ROADMAP.md](./ROADMAP.md) to follow the branching-strategy-driven growth plan.

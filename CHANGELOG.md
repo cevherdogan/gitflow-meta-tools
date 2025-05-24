@@ -13,3 +13,14 @@
 - `CHANGELOG.md`: Initial structured log
 
 
+## [v0.1.1] — 2025-05-24
+### Changed
+- Makefile
+- README.md
+- articles/gitflow-meta-tools-intro-tr.md
+- articles/gitflow-meta-tools-intro.md
+- examples/ci-template.yml
+- logo.png
+- maketest.sh
+- meta/hooks/pre-commit
+

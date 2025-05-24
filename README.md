@@ -1,5 +1,9 @@
 # GitFlow Meta Tools
 
+<p align="center">
+  <img src="logo.png" alt="GitFlow Meta Tools Logo" width="240"/>
+</p>
+
 🔧 A modular toolkit for automating, managing, and scaling Git-based CI/CD workflows.
 
 ## 🎯 Purpose

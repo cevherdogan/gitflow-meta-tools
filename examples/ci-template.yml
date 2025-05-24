@@ -1,0 +1,22 @@
+name: Sample CI Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Show Git status
+        run: git status
+
+      - name: Run versioning script
+        run: |
+          chmod +x scripts/tag-release.sh
+          ./scripts/tag-release.sh --info
+
+
